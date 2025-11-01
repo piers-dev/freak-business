@@ -1,7 +1,10 @@
 body {
-    background-image: url("content/briskja.png");
+    background-image: url("../content/catdance.gif");
+    background-size: 10%;
     padding: 0px;
     margin: 0px;
+    background-color: rgb(3, 4, 14);
+    overflow: hidden;
 }
 
 .main {
