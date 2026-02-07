@@ -51,7 +51,7 @@ body {
 }
 
 .note {
-    display: none;    
+    display: block;    
 }
 
 .note:hover{

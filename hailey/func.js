@@ -40,5 +40,5 @@ function steal(){
 
 function notedisplay(){
   var note = document.getElementById("note")
-  note.style.display = "block"
+  note.style.zIndex = 30;
 }
